@@ -1,0 +1,43 @@
+html {
+    font-family: Georgia, serif;
+    color: #000;
+    font: 18px/1.5;    
+    box-sizing: border-box;
+}
+*, *:after , *:before {
+    box-sizing: inherit; 
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 2rem;
+}
+section {
+    width: 100%;
+    display: flex;
+    font-weight: 545;
+    padding-bottom: 0.3rem;    
+}
+p {
+    padding-right: 0.5rem;
+}
+label {
+    color: #090;
+}
+@media screen and (max-width:600px) {
+    .viewport-width {
+        display: none;  
+    }    
+}
+@media screen and (max-height:600px) {
+    .viewport-height {
+        display: none;  
+    }    
+}
+@media screen and (max-aspect-ratio:8/5) {
+    .viewport-aspect-ratio {
+        display: none;
+    }    
+}
